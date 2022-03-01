@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 nodeMensajeria/node_modules
+nodeMensajeria/.env
