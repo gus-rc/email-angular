@@ -2,10 +2,10 @@ const nodemailer = require('nodemailer');
 
 module.exports = (formulario) => {
   var transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: process.env.SERVISE_EMAIL,
     auth: {
-      user: 'tuemail@gmail.com', // Cambialo por tu email
-      pass: 'tupassword' // Cambialo por tu password
+      user: process.env.USER_EMAIL, // Cambialo por tu email
+      pass: process.env.PASSWORD_EMAIL // Cambialo por tu password
     }
   });
 
