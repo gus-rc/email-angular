@@ -43,3 +43,7 @@ Thumbs.db
 
 nodeMensajeria/node_modules
 nodeMensajeria/.env
+
+reportar-api/.env
+
+node_modules
