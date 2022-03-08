@@ -8,7 +8,7 @@ El proyecto se genero Angular CLI version 10.0.5. para el fronted, y para el bac
 Ejecuta `ng serve` para el dev server. En el navegador a `http://localhost:4200/reportar/`. La aplicación automatimaticamente se recarga si se hacen cambios en alguno de sus archivos.
 
 Esta aplicacion recibe parametros a travez de la URL. Los parametros que se reciben de la siguiente manera:
-    `http://localhost:4200/reportar/?parametro=valor&correoDestinatario=micorreo@electronico.mx&parametro=valor`
+    `http://localhost:4200/reportar/?nombre=valor&email=micorreo@electronico.mx&mensaje=valor`
 
 ## Construir
 
